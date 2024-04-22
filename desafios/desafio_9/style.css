@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div {
+    width: 904px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.html_css {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+}
+
+.voltar {
+    width: 50px;
+}
+.imagem {
+    width: 450px;
+    height: 315px;
+}

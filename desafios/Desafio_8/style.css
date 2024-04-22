@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+}
+main {
+    width: 500px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+}

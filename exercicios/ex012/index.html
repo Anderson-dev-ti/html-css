@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com videos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video controls loop width="800" height="450" poster="img_japan_capa.jpg">
+        <source src="midia/japan_kotobukiya.mkv" type="video/mkv">
+        <source src="midia/japan_kotobukiya.mp4" type="video/mp4">
+        <source src="midia/japan_kotobukiya.ogv" type="video/ogg">
+        <source src="midia/japan_kotobukiya.webm" type="video/webm">
+    </video>
+
+
+    <h1>Video Incorporado do YouTube</h1>
+
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/z-YaHUOriaE?si=z4g1Lk6UmeTJul-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Vídeo Incorporado do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/197817555?h=9edaaea4cf&byline=0&portrait=0" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
