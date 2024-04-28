@@ -16,3 +16,20 @@ td, th {
     padding: 10px;
     text-align: center;
 }
+
+th {
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+
+.fundo_branco {
+    background-color: white;
+    color: black;
+}
+
+.fundo_cinza {
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
