@@ -17,11 +17,7 @@ td, th {
     text-align: center;
 }
 
-th {
-    background-color: gray;
-    color: white;
-    font-weight: bolder;
-}
+
 
 .fundo_branco {
     background-color: white;
@@ -32,4 +28,19 @@ th {
     background-color: gray;
     color: white;
     font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.cidade {
+    background-color: blue;
 }
