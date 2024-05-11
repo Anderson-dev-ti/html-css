@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Estilos para tablets */
+
+body {
+    background: url("../imagens/back-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+img#tablet { display: block; }
+img#smartphone { display: none; }
+img#pc { display: none; }
+img#tv { display: none; }
+img#impressora { display: none; }

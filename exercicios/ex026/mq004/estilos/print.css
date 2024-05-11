@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Estilos para impressoras */
+
+body {
+    background: url("../imagens/back-impressora.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+main {
+    border: 1px solid black;
+}
+
+img#tablet { display: none; }
+img#smartphone { display: none; }
+img#pc { display: none; }
+img#tv { display: none; }
+img#impressora { display: block; }
+
+h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+}
+
+main::after {
+    content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+    text-decoration: overline;
+}

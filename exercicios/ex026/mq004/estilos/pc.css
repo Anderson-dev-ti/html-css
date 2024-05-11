@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Estilos para pcs */
+
+body {
+    background: url("../imagens/back-pc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+img#tablet { display: none; }
+img#smartphone { display: none; }
+img#pc { display: block; }
+img#tv { display: none; }
+img#impressora { display: none; }
