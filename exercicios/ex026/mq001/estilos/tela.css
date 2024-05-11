@@ -12,7 +12,7 @@ html {
 }
 
 header {
-    background-color: rgba(158, 158, 158);
+    background-color: rgba(158, 158, 158); 
 }
 
 header > h1 {
@@ -27,4 +27,12 @@ header ul {
 menu li {
     display: inline-block;
     padding: 10px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+article{
+    width: 700px;
+    display: block;
+    margin: auto  ;
 }
