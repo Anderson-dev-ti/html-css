@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
-<body onresize="mudouTamanho">
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu ()">menu</span>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -34,7 +34,7 @@
 
     <script>
 
-        function mudouTamanho () {
+        function mudouTamanho() {
             if (window.innerWidth >= 768) {
             itens.style.display = 'block'
             } else {
