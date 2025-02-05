@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    width: 350px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th, .resultado {
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+}
+
+th.branco {
+    color: black;
+    font-weight: bold;
+    background-color: white;    
+}
