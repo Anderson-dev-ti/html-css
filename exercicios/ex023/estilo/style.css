@@ -3,10 +3,20 @@
 table {
     border-collapse: collapse;
     margin: 0px auto;
-    width: 300px;
+    width: 500px;
 }
 
-td {
+col.cnome {
+    background-color: red;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
     border: 1px solid black;
     padding: 5px;
     text-align: center;
